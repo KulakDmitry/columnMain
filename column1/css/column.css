@@ -1,0 +1,39 @@
+h1 {
+  text-align: center;
+}
+
+.border {
+  margin: 1px;
+  padding: 3px;
+  border: 2px;
+  border-style: solid;
+  border-color: crimson;
+  float: left;
+  height: 300px;
+}
+
+.style1 {
+  background-color: blueviolet;
+  color: antiquewhite;
+  width: 20%;
+}
+.style2 {
+  background-color: chartreuse;
+  color: darkslateblue;
+  width: 49%;
+}
+.style3 {
+  background-color: darkblue;
+  color: aquamarine;
+  width: 30%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.fix ::after {
+  content: "";
+  clear: both;
+  display: table;
+}
