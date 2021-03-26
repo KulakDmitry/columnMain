@@ -1,9 +1,13 @@
+body {
+  background-color: antiquewhite;
+}
+
 h1 {
   text-align: center;
 }
 
 ul {
-  font-size: 25px;
+  font-size: 20px;
   text-align: center;
   list-style-position: inside;
   list-style-type: square;
@@ -12,7 +16,7 @@ ul {
 .border {
   padding: 3px;
   float: left;
-  height: 200px;
+  height: 250px;
 }
 
 .style1 {
@@ -37,5 +41,12 @@ ul {
 }
 
 p {
-  padding: 20px;
+  margin-top: 10px;
+}
+
+nav {
+  position: static;
+  width: 100%;
+  text-align: center;
+  font-size: 30px;
 }
